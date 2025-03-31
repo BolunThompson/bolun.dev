@@ -1,6 +1,5 @@
 ---
-title: KVM Sectorlisp
-published_date: 2024-03-31
+title: about me!
 layout: default.liquid
 is_draft: false
 ---
