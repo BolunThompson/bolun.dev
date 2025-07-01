@@ -2,7 +2,9 @@
 layout: default.liquid
 title: Your Name Here
 ---
-![Portrait of Your Name Here](/assets/portrait.jpg){: .portrait }
+<div class="portrait-container">
+  <img src="/assets/portrait.jpg" alt="Portrait of {{ page.title }}" class="portrait" />
+</div>
 
 ## About Me
 
