@@ -88,7 +88,7 @@ nav.site-nav a:hover {
 }
 main.site-content {
     margin: 2rem 2rem 2rem 260px;
-    max-width: 75ch;
+    max-width: 85ch;
     padding: 0 1rem;
 }
 footer.site-footer {
@@ -132,7 +132,7 @@ body {
     padding: 0 0.5rem;
 }
 body, input {
-    font: var(--desktop-font-size) -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto, Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
+    font: var(--desktop-font-size) 'Source Serif 4', Merriweather,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto, Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 h1,h2,h3,h4,h5,h6,p,blockquote,dl,img,figure {
@@ -239,7 +239,7 @@ sup { font-size: 80%; vertical-align: top; }
 /* Mobile Styling */
 @media screen and (max-width: 75ch) {
     body, input {
-        font: var(--mobile-font-size) -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto, Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
+        font: var(--mobile-font-size) 'Source Serif 4', Merriweather,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto, Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     }
     table { table-layout: auto; }
 }
