@@ -24,10 +24,10 @@ i like programming languages, compilers, operating systems and linux!
 ## Education
 
 <div class="education-card">
-  <img src="https://cdn-icons-png.flaticon.com/512/114/114983.png" alt="Graduation Cap" class="education-icon" width="60"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/College-graduation-hat.svg" alt="Graduation Cap" class="education-icon" width="60"/>
   <div class="education-details">
-    **University of California, Los Angeles**  
-    _Computer Science_  
+    <strong>University of California, Los Angeles</strong><br/>
+    <em>Computer Science</em><br/>
     2024 – 2028
   </div>
 </div>
