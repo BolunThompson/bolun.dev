@@ -17,11 +17,11 @@ i like programming langauges, compilers, operating systems and linux!
 
 + [KVM Sectorlisp](https://bolun.dev/posts/kvm_sectorlisp.html) — virtualisizing sectorlisp using KVM!
 
-## Contacts
+## contacts
 + [github.com/bolunthompson](https://github.com/bolunthompson)
 + abolunthompson@gmail.com
 
-## Education
+## education
 
 <div class="education-card">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/College-graduation-hat.svg" alt="Graduation Cap" class="education-icon" width="60"/>
