@@ -2,13 +2,23 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/vanilla.css">
         <title>about me!</title>
     </head>
     <body>
-    <div>
-      <h2>about me!</h2>
-      <h1>who i am!</h1>
+  <header class="site-header">
+    <h1><a href="/">about me!</a></h1>
+    <nav class="site-nav">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/posts/">Posts</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
+  <main class="site-content">
+    <h1>who i am!</h1>
 <p>i'm bolun (he/him), a ucla undergrad studying computer science &lt;3.</p>
 <p>i like programming langauges, compilers, operating systems and linux!</p>
 <h2>roles</h2>
@@ -20,6 +30,9 @@
 <li><a href="https://bolun.dev/posts/kvm_sectorlisp.html">KVM Sectorlisp</a> — virtualisizing sectorlisp using KVM!</li>
 </ul>
 
-    </div>
-  </body>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2025 about me!. All rights reserved.</p>
+  </footer>
+    </body>
 </html>
