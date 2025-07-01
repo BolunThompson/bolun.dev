@@ -48,7 +48,7 @@ i like programming languages, compilers, operating systems and linux!
 </div>
 
 
-## work experience
+<!-- ## work experience -->
 
-- **Role**, Company — Brief bullet or 1-line overview  
-- **Another Role**, Organization — Brief bullet or 1-line overview
+<!-- - **Role**, Company — Brief bullet or 1-line overview -->  
+<!-- - **Another Role**, Organization — Brief bullet or 1-line overview -->
