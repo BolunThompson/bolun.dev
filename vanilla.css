@@ -92,7 +92,7 @@ nav.site-nav a:hover {
 }
 main.site-content {
     margin: 2rem 2rem 2rem 260px;
-    max-width: 75ch;
+    max-width: 90ch;
     padding: 0 1rem;
 }
 footer.site-footer {
@@ -132,8 +132,8 @@ footer.site-footer {
 body {
     color: var(--text-color);
     margin: 0 auto;
-    max-width: 75ch;
-    padding: 0 0.5rem;
+    max-width: 90ch;
+    padding: 0 1rem;
 }
 body, input {
     font: var(--desktop-font-size) 'Source Serif 4', Merriweather,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto, Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
