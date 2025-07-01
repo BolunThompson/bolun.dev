@@ -1,5 +1,6 @@
 ---
 layout: default.liquid
+title: Your Name Here
 ---
 ## I code sometimes
 
