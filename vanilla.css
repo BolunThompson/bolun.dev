@@ -69,12 +69,19 @@ nav.site-nav a:hover {
     color: var(--secondary-color);
 }
 
+.sidebar-nav a:focus,
+.sidebar-nav a:active {
+    outline: none;
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+}
+
 .site-sidebar {
     position: fixed;
     top: 0;
     left: 0;
     width: 220px;
-    background: var(--tertiary-color);
+    background: none;
     height: 100%;
     padding: 1rem;
     box-sizing: border-box;
