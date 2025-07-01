@@ -6,13 +6,13 @@ title: bolun thompson
   <img src="/assets/portrait.png" alt="Portrait of {{ page.title }}" class="portrait" />
 </div>
 
-<h2 id="about-me">about me</h2>
+## about me
 
 i'm bolun (he/him), a cool hacker studying computer science <3.
 
 i like programming languages, compilers, operating systems and linux!
 
-### roles
+## roles
 
 <div class="role-card">
   <img
