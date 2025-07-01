@@ -46,9 +46,26 @@ nav.site-nav a {
     margin: 0 0.75rem;
     text-decoration: none;
     font-weight: 600;
+    background: var(--tertiary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
 }
 nav.site-nav a:hover {
     text-decoration: underline;
+}
+
+.sidebar-nav a {
+    display: block;
+    color: var(--secondary-color);
+    margin: 0.5rem 0;
+    text-decoration: none;
+    background: var(--tertiary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+.sidebar-nav a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .site-sidebar {
