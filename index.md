@@ -1,6 +1,6 @@
 ---
 layout: default.liquid
-title: Your Name Here
+title: bolun thompson
 ---
 <div class="portrait-container">
   <img src="/assets/portrait.jpg" alt="Portrait of {{ page.title }}" class="portrait" />
