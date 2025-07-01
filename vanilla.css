@@ -29,9 +29,13 @@ time, mark, audio, video {
 
 /* Site layout */
 header.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background: var(--primary-color);
     color: var(--secondary-color);
-    padding: 1rem 2rem;
+    height: 3rem;
+    padding: 0 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,17 +82,17 @@ nav.site-nav a:hover {
 
 .site-sidebar {
     position: fixed;
-    top: 0;
+    top: 3rem;
     left: 0;
     width: 220px;
     background: none;
-    height: 100%;
+    height: calc(100% - 3rem);
     padding: 1rem;
     box-sizing: border-box;
 }
 main.site-content {
     margin: 2rem 2rem 2rem 260px;
-    max-width: 85ch;
+    max-width: 75ch;
     padding: 0 1rem;
 }
 footer.site-footer {
