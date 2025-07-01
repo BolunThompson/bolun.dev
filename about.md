@@ -22,7 +22,13 @@ i like programming langauges, compilers, operating systems and linux!
 + abolunthompson@gmail.com
 
 ## Education
-University of California, Los Angeles  
-Computer Science  
-2024 - 2028
+
+<div class="education-card">
+  <img src="https://cdn-icons-png.flaticon.com/512/114/114983.png" alt="Graduation Cap" class="education-icon" width="60"/>
+  <div class="education-details">
+    **University of California, Los Angeles**  
+    _Computer Science_  
+    2024 – 2028
+  </div>
+</div>
 

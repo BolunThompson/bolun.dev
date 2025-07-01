@@ -219,6 +219,24 @@ sup { font-size: 80%; vertical-align: top; }
     table { table-layout: auto; }
 }
 
+.education-card {
+    display: flex;
+    align-items: center;
+    background: var(--tertiary-color);
+    border-left: 4px solid var(--primary-color);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+.education-icon {
+    margin-right: 1rem;
+}
+
+.education-details {
+    line-height: 1.4;
+}
+
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
     body {
