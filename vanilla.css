@@ -34,7 +34,7 @@ header.site-header {
     z-index: 1000;
     background: var(--primary-color);
     color: var(--secondary-color);
-    height: 3rem;
+    height: 2.5rem;
     padding: 0 1rem;
     display: flex;
     align-items: center;
@@ -82,11 +82,11 @@ nav.site-nav a:hover {
 
 .site-sidebar {
     position: fixed;
-    top: 3rem;
+    top: 2.5rem;
     left: 0;
     width: 220px;
     background: none;
-    height: calc(100% - 3rem);
+    height: calc(100% - 2.5rem);
     padding: 1rem;
     box-sizing: border-box;
 }
