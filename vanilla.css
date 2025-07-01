@@ -237,6 +237,23 @@ sup { font-size: 80%; vertical-align: top; }
     line-height: 1.4;
 }
 
+.updates-section {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: var(--tertiary-color);
+    border-left: 4px solid var(--link-color);
+    border-radius: 0.5rem;
+}
+
+.updates-section h2 {
+    margin-top: 0;
+}
+
+.updates-list {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
     body {

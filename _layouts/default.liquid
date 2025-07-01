@@ -23,6 +23,17 @@
   </aside>
   <main class="site-content">
     {{ page.content }}
+
+    {% if page.updates %}
+    <section class="updates-section">
+      <h2>Updates</h2>
+      <ul class="updates-list">
+      {% for update in page.updates %}
+        <li>{{ update }}</li>
+      {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
   </main>
   <footer class="site-footer">
     <p>&copy; {{ site.time | date: "%Y" }} {{ page.title }}. All rights reserved.</p>
