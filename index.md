@@ -6,7 +6,7 @@ title: bolun thompson
   <img src="/assets/portrait.png" alt="Portrait of {{ page.title }}" class="portrait" />
 </div>
 
-## about me
+## about me {#about-me}
 
 i'm bolun (he/him), a cool hacker studying computer science <3.
 
@@ -22,7 +22,11 @@ i like programming languages, compilers, operating systems and linux!
   </div>
 </div>
 
-## contact
+## projects {#projects}
+
+- [KVM Sectorlisp](https://bolun.dev/posts/kvm_sectorlisp.html) — virtualisizing sectorlisp using KVM!
+
+## contact {#contact}
 
 - [github.com/bolunthompson](https://github.com/bolunthompson)
 - me at bolun dot dev
@@ -38,9 +42,6 @@ i like programming languages, compilers, operating systems and linux!
   </div>
 </div>
 
-## projects
-
-- [KVM Sectorlisp](https://bolun.dev/posts/kvm_sectorlisp.html) — virtualisizing sectorlisp using KVM!
 
 ## work experience
 
