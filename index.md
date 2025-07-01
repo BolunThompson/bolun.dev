@@ -3,7 +3,7 @@ layout: default.liquid
 title: bolun thompson
 ---
 <div class="portrait-container">
-  <img src="/assets/portrait.jpg" alt="Portrait of {{ page.title }}" class="portrait" />
+  <img src="/assets/portrait.png" alt="Portrait of {{ page.title }}" class="portrait" />
 </div>
 
 ## about me
@@ -25,7 +25,7 @@ i like programming languages, compilers, operating systems and linux!
 ## contact
 
 - [github.com/bolunthompson](https://github.com/bolunthompson)
-- abolunthompson@gmail.com
+- me at bolun dot dev
 
 ## education
 
