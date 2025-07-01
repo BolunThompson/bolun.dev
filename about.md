@@ -17,3 +17,12 @@ i like programming langauges, compilers, operating systems and linux!
 
 + [KVM Sectorlisp](https://bolun.dev/posts/kvm_sectorlisp.html) — virtualisizing sectorlisp using KVM!
 
+## Contacts
++ [github.com/bolunthompson](https://github.com/bolunthompson)
++ abolunthompson@gmail.com
+
+## Education
+University of California, Los Angeles  
+Computer Science  
+2024 - 2028
+
