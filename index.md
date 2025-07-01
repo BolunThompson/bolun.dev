@@ -8,7 +8,7 @@ title: bolun thompson
 
 ## about me
 
-i'm bolun (he/him), a UCLA undergrad studying computer science <3.
+i'm bolun (he/him), a cool hacker studying computer science <3.
 
 i like programming languages, compilers, operating systems and linux!
 
@@ -18,7 +18,7 @@ i like programming languages, compilers, operating systems and linux!
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Briefcase.svg" alt="Briefcase" class="role-icon" width="40"/>
   <div class="role-details">
     <strong>Research Assistant</strong><br/>
-    <em>Working under Prof. Kallas at UCLA</em>
+    <em>Working under Konstantinos Kallas at UCLA</em>
   </div>
 </div>
 
