@@ -36,6 +36,11 @@ header.site-header {
     align-items: center;
     justify-content: space-between;
 }
+
+header.site-header h1 a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
 nav.site-nav a {
     color: var(--secondary-color);
     margin: 0 0.75rem;
