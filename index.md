@@ -24,11 +24,11 @@ i like programming languages, compilers, operating systems and linux!
   </div>
 </div>
 
-<h2 id="projects">projects</h2>
+## projects
 
 - [KVM Sectorlisp](https://bolun.dev/posts/kvm_sectorlisp.html) — virtualisizing sectorlisp using KVM!
 
-<h2 id="contact">contact</h2>
+## contact
 
 - [github.com/bolunthompson](https://github.com/bolunthompson)
 - me at bolun dot dev
@@ -36,9 +36,8 @@ i like programming languages, compilers, operating systems and linux!
 ## education
 
 <div class="education-card">
-  <!-- 1280-pixel-wide 16:6 crop straight from Commons -->
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/2019_UCLA_Royce_Hall_and_Haines_Hall.jpg/1280px-2019_UCLA_Royce_Hall_and_Haines_Hall.jpg"
+    src="https://upload.wikimedia.org/wikipedia/commons/9/9a/2019_UCLA_Royce_Hall_2.jpg"
     alt="Royce Hall, UCLA campus" width="64" height="64"/>
   <div class="education-details">
     <strong>University of California, Los Angeles</strong><br/>
