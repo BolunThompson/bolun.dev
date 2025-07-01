@@ -29,9 +29,8 @@ time, mark, audio, video {
 
 /* Site layout */
 header.site-header {
-    position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
     background: var(--primary-color);
     color: var(--secondary-color);
     height: 2.5rem;
@@ -82,7 +81,7 @@ nav.site-nav a:hover {
 
 main.site-content {
     margin: 2rem auto;
-    max-width: 90ch;
+    max-width: 120ch;
     padding: 0 1rem;
 }
 footer.site-footer {
