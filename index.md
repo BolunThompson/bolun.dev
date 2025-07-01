@@ -15,7 +15,7 @@ i like programming languages, compilers, operating systems and linux!
 ### roles
 
 <div class="role-card">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Briefcase.svg" alt="Briefcase" class="role-icon" width="40"/>
+  <img src="/assets/Briefcase.svg" alt="Briefcase" class="role-icon" width="40"/>
   <div class="role-details">
     <strong>Research Assistant</strong><br/>
     <em>Working under Konstantinos Kallas at UCLA</em>
@@ -30,7 +30,7 @@ i like programming languages, compilers, operating systems and linux!
 ## education
 
 <div class="education-card">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/College-graduation-hat.svg" alt="Graduation Cap" class="education-icon" width="60"/>
+  <img src="/assets/College-graduation-hat.svg" alt="Graduation Cap" class="education-icon" width="60"/>
   <div class="education-details">
     <strong>University of California, Los Angeles</strong><br/>
     <em>Computer Science</em><br/>

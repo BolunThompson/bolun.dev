@@ -24,7 +24,7 @@ i like programming langauges, compilers, operating systems and linux!
 ## education
 
 <div class="education-card">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/College-graduation-hat.svg" alt="Graduation Cap" class="education-icon" width="60"/>
+  <img src="/assets/College-graduation-hat.svg" alt="Graduation Cap" class="education-icon" width="60"/>
   <div class="education-details">
     <strong>University of California, Los Angeles</strong><br/>
     <em>Computer Science</em><br/>
