@@ -3,7 +3,7 @@ layout: default.liquid
 title: bolun thompson
 ---
 <div class="portrait-container">
-  <img src="/assets/portrait.png" alt="Portrait of {{ page.title }}" class="portrait" />
+  <img src="/assets/me.jpg" alt="Portrait of {{ page.title }}" class="portrait" />
 </div>
 
 ## about me
