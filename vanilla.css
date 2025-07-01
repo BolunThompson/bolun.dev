@@ -44,6 +44,10 @@ header.site-header h1 a {
     color: var(--secondary-color);
     text-decoration: none;
 }
+
+main.site-content h1 a {
+    text-decoration: none;
+}
 nav.site-nav a {
     color: var(--primary-color);
     margin: 0 0.75rem;
