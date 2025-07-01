@@ -50,8 +50,19 @@ nav.site-nav a {
 nav.site-nav a:hover {
     text-decoration: underline;
 }
+
+.site-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    background: var(--tertiary-color);
+    height: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
 main.site-content {
-    margin: 2rem auto;
+    margin: 2rem 2rem 2rem 260px;
     max-width: 75ch;
     padding: 0 1rem;
 }
