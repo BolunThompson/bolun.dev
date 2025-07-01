@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>bolun.dev</title><link>https://bolun.dev</link><description>Bolun&apos;s personal programming blog!</description><item><title>KVM Sectorlisp</title><link>https://bolun.dev/posts/kvm_sectorlisp.html</link><description><![CDATA[<h1>kvm sectorlisp</h1>
-]]></description><guid>https://bolun.dev/posts/kvm_sectorlisp.html</guid><pubDate>Tue, 24 Sep 2024 18:58:27 +0000</pubDate></item></channel></rss>
+]]></description><guid>https://bolun.dev/posts/kvm_sectorlisp.html</guid><pubDate>Tue, 24 Sep 2024 18:58:27 +0000</pubDate></item><item><title>Hello, world!</title><link>https://bolun.dev/posts/hello-world.html</link><description><![CDATA[<p>Hello, world! This is my first post.</p>
+]]></description><guid>https://bolun.dev/posts/hello-world.html</guid></item></channel></rss>
