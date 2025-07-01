@@ -14,7 +14,13 @@ i like programming languages, compilers, operating systems and linux!
 
 ### roles
 
-- research assistant working on <insert project here when done> under prof. kallas at ucla
+<div class="role-card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Briefcase.svg" alt="Briefcase" class="role-icon" width="40"/>
+  <div class="role-details">
+    <strong>Research Assistant</strong><br/>
+    <em>Working under Prof. Kallas at UCLA</em>
+  </div>
+</div>
 
 ## contact
 
