@@ -39,7 +39,7 @@ i like programming languages, compilers, operating systems and linux!
   <!-- 1280-pixel-wide 16:6 crop straight from Commons -->
   <img
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/2019_UCLA_Royce_Hall_and_Haines_Hall.jpg/1280px-2019_UCLA_Royce_Hall_and_Haines_Hall.jpg"
-    alt="Royce Hall, UCLA campus" style="width:100%; height:auto; object-fit:cover;" />
+    alt="Royce Hall, UCLA campus"/>
   <div class="education-details">
     <strong>University of California, Los Angeles</strong><br/>
     <em>Computer Science</em><br/>
