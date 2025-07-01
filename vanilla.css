@@ -33,7 +33,7 @@ header.site-header {
     z-index: 1;
     background: var(--primary-color);
     color: var(--secondary-color);
-    height: 2.5rem;
+    height: 4rem;
     padding: 0 1rem;
     display: flex;
     align-items: center;
