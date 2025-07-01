@@ -8,23 +8,33 @@ title: Your Name Here
 
 ## About Me
 
-Brief introduction about yourself, your interests in systems and computer science research, and current status as a UCLA undergraduate.
+i'm bolun (he/him), a UCLA undergrad studying computer science <3.
+
+i like programming languages, compilers, operating systems and linux!
+
+### Roles
+
+- research assistant working on <insert project here when done> under prof. kallas at ucla
 
 ## Contact
 
-- **Email:** your.email@ucla.edu  
-- **GitHub:** [username](https://github.com/username)  
-- **LinkedIn:** [username](https://linkedin.com/in/username)  
+- [github.com/bolunthompson](https://github.com/bolunthompson)
+- abolunthompson@gmail.com
 
 ## Education
 
-- **Degree**, Major, University (Year–Year)  
-- Any honors or relevant coursework
+<div class="education-card">
+  <img src="https://cdn-icons-png.flaticon.com/512/114/114983.png" alt="Graduation Cap" class="education-icon" width="60"/>
+  <div class="education-details">
+    **University of California, Los Angeles**  
+    _Computer Science_  
+    2024 – 2028
+  </div>
+</div>
 
 ## Projects
 
-- **Project Name** — Short 1-line description  
-- **Another Project** — Short 1-line description
+- [KVM Sectorlisp](https://bolun.dev/posts/kvm_sectorlisp.html) — virtualisizing sectorlisp using KVM!
 
 ## Work Experience
 
