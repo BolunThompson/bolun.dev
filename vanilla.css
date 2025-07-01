@@ -42,13 +42,14 @@ header.site-header h1 a {
     text-decoration: none;
 }
 nav.site-nav a {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     margin: 0 0.75rem;
     text-decoration: none;
     font-weight: 600;
-    background: none;
+    background: var(--secondary-color);
     padding: 0.25rem 0.5rem;
     border-radius: 0.25rem;
+    font-family: 'Fira Code', monospace;
 }
 nav.site-nav a:hover {
     text-decoration: underline;
