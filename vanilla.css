@@ -259,6 +259,11 @@ sup { font-size: 80%; vertical-align: top; }
     line-height: 1.4;
 }
 
+.research-icon {
+    margin-right: 1.5rem;
+    border-radius: .25rem;
+}
+
 .role-card {
     display: flex;
     align-items: center;

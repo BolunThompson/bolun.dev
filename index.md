@@ -17,9 +17,10 @@ i'm bolun (he/him), a cool hacker studying computer science <3. i like programmi
 <div class="role-card">
   <img
     src="/assets/binpash_small.jpg"
-    alt="Binpash logo" width="64" style="border-radius:0.25rem;" />
+    class="research-icon"
+    alt="Binpash logo" width="64"/>
   <div class="role-details">
-    <strong>Research Assistant</strong><br/>
+    <strong>Research Assistant for the Programmable Software Systems Lab</strong><br/>
     <em>Working under Konstantinos Kallas at UCLA</em>
   </div>
 </div>
