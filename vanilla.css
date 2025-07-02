@@ -32,9 +32,10 @@ header.site-header {
     top: 0;
     z-index: 1;
     background: var(--primary-color);
+    border-radius: 0.5rem;
     color: var(--secondary-color);
     min-height: 4rem;
-    padding: 1rem 3rem;
+    padding: 1.5rem 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
