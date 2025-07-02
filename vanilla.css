@@ -276,6 +276,7 @@ sup { font-size: 80%; vertical-align: top; }
 
 .role-card img {
     padding: 0.5rem;
+    border-radius: 0.25rem;
 }
 
 .role-details {
