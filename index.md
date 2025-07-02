@@ -36,9 +36,9 @@ i like programming languages, compilers, operating systems and linux!
 ## education
 
 <div class="education-card">
-  <img
+  <img class="education-icon"
     src="https://upload.wikimedia.org/wikipedia/commons/9/9a/2019_UCLA_Royce_Hall_2.jpg"
-    alt="Royce Hall, UCLA campus" width="64" height="64"/>
+    alt="Royce Hall, UCLA campus" width="80"/>
   <div class="education-details">
     <strong>University of California, Los Angeles</strong><br/>
     <em>Computer Science</em><br/>
