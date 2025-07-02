@@ -8,9 +8,9 @@ title: bolun thompson
 
 ## about me
 
-i'm bolun (he/him), a cool hacker studying computer science <3.
+i'm bolun (he/him), a cool hacker studying computer science <3. i like programming languages, compilers, operating systems and linux!
 
-i like programming languages, compilers, operating systems and linux!
+<!-- ## updates -->
 
 ## roles
 
