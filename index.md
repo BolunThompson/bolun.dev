@@ -16,8 +16,8 @@ i'm bolun (he/him), a cool hacker studying computer science <3. i like programmi
 
 <div class="role-card">
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Briefcase_%2889022%29_-_The_Noun_Project.svg"
-    alt="Briefcase icon – Research Assistant" width="64" height="64" />
+    src="/assets/binpash_small.jpg"
+    alt="Binpash logo" width="64" height="64" />
   <div class="role-details">
     <strong>Research Assistant</strong><br/>
     <em>Working under Konstantinos Kallas at UCLA</em>
