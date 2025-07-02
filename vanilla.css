@@ -274,6 +274,10 @@ sup { font-size: 80%; vertical-align: top; }
     margin-right: 0.75rem;
 }
 
+.role-card img {
+    padding: 0.5rem;
+}
+
 .role-details {
     line-height: 1.2;
 }
