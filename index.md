@@ -28,7 +28,7 @@ i'm bolun (he/him), a cool hacker studying computer science. i like programming 
 ## projects
 
 - [KVM Sectorlisp](https://bolun.dev/posts/kvm_sectorlisp.html) — virtualisizing sectorlisp using KVM!
-
+- playing around with my nix setup
 
 ## education
 
