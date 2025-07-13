@@ -2,3 +2,5 @@
 .envrc
 .devenv*
 _site/
+playwright-report/
+test-results/
