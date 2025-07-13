@@ -18,10 +18,10 @@ i'm bolun (he/him), a cool hacker studying computer science <3. i like programmi
   <img
     src="/assets/binpash_small.jpg"
     class="research-icon"
-    alt="Binpash logo" width="64"/>
+    alt="Binpash logo" width="80"/>
   <div class="role-details">
-    <strong>Research Assistant for the Programmable Software Systems Lab</strong><br/>
-    <em>Working under Konstantinos Kallas at UCLA</em>
+    **Research Assistant for the Programmable Software Systems Lab**<br/>
+    *Working under Konstantinos Kallas at UCLA*
   </div>
 </div>
 
@@ -29,10 +29,6 @@ i'm bolun (he/him), a cool hacker studying computer science <3. i like programmi
 
 - [KVM Sectorlisp](https://bolun.dev/posts/kvm_sectorlisp.html) — virtualisizing sectorlisp using KVM!
 
-## contact
-
-- [github.com/bolunthompson](https://github.com/bolunthompson)
-- me at bolun dot dev
 
 ## education
 
@@ -52,3 +48,9 @@ i'm bolun (he/him), a cool hacker studying computer science <3. i like programmi
 
 <!-- - **Role**, Company — Brief bullet or 1-line overview -->  
 <!-- - **Another Role**, Organization — Brief bullet or 1-line overview -->
+
+## contact
+
+- [github](https://github.com/bolunthompson)
+- [keyoxide](https://keyoxide.org/aspe%3Akeyoxide.org%3ABPDT2PWT2MJP5JXMYHL5OAFV54)
+- me at bolun dot dev
