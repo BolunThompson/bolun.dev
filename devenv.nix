@@ -1,5 +1,5 @@
 { pkgs, lib, config, ... }: {
-  packages = [ pkgs.cobalt pkgs.gh pkgs.aider-chat-with-playwright ];
+  packages = [ pkgs.cobalt pkgs.gh pkgs.nodejs_23 ];
 
   languages = {
     rust.enable = true;
