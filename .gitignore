@@ -1,1 +1,4 @@
 .aider*
+.envrc
+.devenv*
+_site/
