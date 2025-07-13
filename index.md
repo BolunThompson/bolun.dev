@@ -8,7 +8,7 @@ title: bolun thompson
 
 ## about me
 
-i'm bolun (he/him), a cool hacker studying computer science <3. i like programming languages, compilers, operating systems and linux!
+i'm bolun (he/him), a cool hacker studying computer science. i like programming languages, operating systems and linux!
 
 <!-- ## updates -->
 
@@ -51,6 +51,6 @@ i'm bolun (he/him), a cool hacker studying computer science <3. i like programmi
 
 ## contact
 
+- me at bolun dot dev
 - [github](https://github.com/bolunthompson)
 - [keyoxide](https://keyoxide.org/aspe%3Akeyoxide.org%3ABPDT2PWT2MJP5JXMYHL5OAFV54)
-- me at bolun dot dev
