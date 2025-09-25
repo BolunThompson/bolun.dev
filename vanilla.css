@@ -2,19 +2,87 @@
 /* license: MIT */
 
 /* Reset */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -28,39 +96,57 @@ time, mark, audio, video {
 }
 
 /* Site layout */
-header.site-header {
-    top: 0;
-    z-index: 1;
+.site-container {
+    min-height: 100vh;
+}
+
+.sidebar {
     background: var(--primary-color);
-    border-radius: 0.5rem;
     color: var(--secondary-color);
-    min-height: 4rem;
-    padding: 0.75rem 2rem;
+    padding: 2rem 1.5rem;
+    position: fixed;
+    width: 14rem;
+    height: 100vh;
+    overflow-y: auto;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    border-radius: 0 0.5rem 0.5rem 0;
 }
 
-header.site-header h1 a {
+.profile-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.profile-name {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.profile-name a {
     color: var(--secondary-color);
     text-decoration: none;
 }
 
-main.site-content h1 a {
-    text-decoration: none;
+.profile-pronunciation {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    margin: 0;
+    opacity: 0.8;
 }
-nav.site-nav a {
-    color: var(--primary-color);
-    margin: 0 0.75rem;
-    text-decoration: none;
-    font-weight: 600;
-    background: var(--secondary-color);
-    padding: 0.25rem 0.5rem;
-    border-radius: 0.25rem;
-    font-family: 'Fira Code', monospace;
+
+.main-content {
+    margin-left: 14rem;
+    padding: 2rem 3rem;
+    max-width: 84ch;
 }
-nav.site-nav a:hover {
-    text-decoration: underline;
+
+.main-content h1 a {
+    text-decoration: none;
 }
 
 .sidebar-nav a {
@@ -73,22 +159,54 @@ nav.site-nav a:hover {
     border-radius: 0.25rem;
 }
 .sidebar-nav a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
+    filter: brightness(0.85);
 }
 
 .sidebar-nav a:focus,
 .sidebar-nav a:active {
     outline: none;
-    background: var(--tertiary-color);
-    color: var(--secondary-color);
 }
 
-main.site-content {
-    margin: 2rem auto;
-    max-width: 120ch;
-    padding: 0 1rem;
+.social-links {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
 }
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-color);
+    text-decoration: none;
+    background: var(--tertiary-color);
+    padding: 0.25rem;
+    border-radius: 20%;
+    font-size: 0.9rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.social-link:hover {
+    filter: brightness(0.85);
+}
+
+.social-link:focus,
+.social-link:active {
+    outline: none;
+}
+
+.social-link svg {
+    flex-shrink: 0;
+}
+
+.social-link img {
+    filter: brightness(0) saturate(100%) invert(40%) sepia(90%) saturate(1893%)
+        hue-rotate(202deg) brightness(93%) contrast(93%);
+}
+
 footer.site-footer {
     margin: 4rem auto;
     padding: 1rem 0;
@@ -99,13 +217,14 @@ footer.site-footer {
 }
 
 /* Portrait style */
-.portrait-container {
-    margin: 1rem 0;
+.sidebar .portrait-container {
+    margin: 0 0 1rem 0;
 }
-.portrait {
-    width: 10rem;
+.sidebar .portrait {
+    width: auto;
     height: auto;
-    border: 0.1875rem solid var(--primary-color);
+    border: 0.1875rem solid var(--secondary-color);
+    border-radius: 25%;
 }
 
 /* Variables */
@@ -113,54 +232,123 @@ footer.site-footer {
     --desktop-font-size: 1.2rem/1.55;
     --mobile-font-size: 1rem/1.45;
     --text-color: #333333;
-    --link-color: #2774AE;
-    --link-color-alt: #005BBB;
-    --primary-color: #2774AE;
-    --secondary-color: #FFD100;
+    --link-color: #2774ae;
+    --link-color-alt: #005bbb;
+    --primary-color: #2774ae;
+    --secondary-color: #ffd100;
     --tertiary-color: #f5f5f5;
 }
 
 /* Typography */
 body {
     color: var(--text-color);
-    margin: 0 auto;
-    max-width: 90ch;
-    padding: 0 1rem;
+    margin: 0;
+    padding: 0;
 }
-body, input {
-    font: var(--desktop-font-size) 'Source Serif 4', Merriweather,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto, Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+body,
+input {
+    font:
+        var(--desktop-font-size) "Source Serif 4",
+        Merriweather,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
 }
 
-h1,h2,h3,h4,h5,h6,p,blockquote,dl,img,figure {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+dl,
+img,
+figure {
     margin: 1.5rem 0;
 }
 
-h1,h2,h3,h4,h5,h6 { font-weight: bold; line-height: 1.2; }
-h1 { font-size: 200%; }
-h2 { font-size: 150%; }
-h3 { font-size: 120%; }
-h4,h5,h6 { font-size: 100%; }
-h5, h6 { text-transform: uppercase; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 200%;
+}
+h2 {
+    font-size: 150%;
+}
+h3 {
+    font-size: 120%;
+}
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+h5,
+h6 {
+    text-transform: uppercase;
+}
 
-header h1 { border-bottom: 1px solid; }
+header h1 {
+    border-bottom: 1px solid;
+}
 
-a,a:visited { color: var(--link-color); }
-a:hover,a:focus { color: var(--link-color-alt); }
+a,
+a:visited {
+    color: var(--link-color);
+}
+a:hover,
+a:focus {
+    color: var(--link-color-alt);
+}
 
-strong, time, b { font-weight: bold; }
-em, dfn, i { font-style: italic; }
-sub { font-size: 60%; vertical-align: bottom; }
-small { font-size: 80%; }
+strong,
+time,
+b {
+    font-weight: bold;
+}
+em,
+dfn,
+i {
+    font-style: italic;
+}
+sub {
+    font-size: 60%;
+    vertical-align: bottom;
+}
+small {
+    font-size: 80%;
+}
 
-blockquote, q {
+blockquote,
+q {
     background: var(--secondary-color);
     border-left: 10px solid var(--primary-color);
     display: block;
     font-family: "Georgia", serif;
     padding: 1rem;
 }
-blockquote p:first-child { margin-top: 0; }
-blockquote p:last-child { margin-bottom: 0; }
+blockquote p:first-child {
+    margin-top: 0;
+}
+blockquote p:last-child {
+    margin-bottom: 0;
+}
 cite {
     font-family: "Georgia", serif;
     font-style: italic;
@@ -168,14 +356,25 @@ cite {
     margin-top: 1rem;
 }
 
-kbd,code,samp,pre,var { font: var(--mobile-font-size) monospace; }
-code, pre {
+kbd,
+code,
+samp,
+pre,
+var {
+    font: var(--mobile-font-size) monospace;
+}
+code,
+pre {
     background: var(--tertiary-color);
     border: 0.0625rem solid;
     overflow: auto;
     padding: 0.25rem 0.5rem;
 }
-code pre , pre code { border: 0; padding: 0; }
+code pre,
+pre code {
+    border: 0;
+    padding: 0;
+}
 
 /* Elements */
 hr {
@@ -187,8 +386,8 @@ hr {
 
 img {
     display: block;
-    height: auto; 
-    max-width: 100%; 
+    height: auto;
+    max-width: 100%;
 }
 
 figure {
@@ -197,15 +396,37 @@ figure {
     padding: 1rem;
     width: 100%;
 }
-figure img { margin: 0 auto; }
-figure figcaption { font-size: 80%; margin-top: 0.5rem; text-align: center; }
+figure img {
+    margin: 0 auto;
+}
+figure figcaption {
+    font-size: 80%;
+    margin-top: 0.5rem;
+    text-align: center;
+}
 
-ul, ol { margin: 2rem 0; padding: 0 0 0 2rem; }
-ul li, ol li { margin-bottom: 1rem; }
-li > ul, li > ol { margin: 0.25rem 0 0.5rem; padding: 0 0 0 2rem; }
-li > ul li, li > ol li { margin-bottom: 0.5rem; }
+ul,
+ol {
+    margin: 2rem 0;
+    padding: 0 0 0 2rem;
+}
+ul li,
+ol li {
+    margin-bottom: 1rem;
+}
+li > ul,
+li > ol {
+    margin: 0.25rem 0 0.5rem;
+    padding: 0 0 0 2rem;
+}
+li > ul li,
+li > ol li {
+    margin-bottom: 0.5rem;
+}
 
-dl dd { padding-left: 2rem; }
+dl dd {
+    padding-left: 2rem;
+}
 
 table {
     border: 0.0625rem solid var(--primary-color);
@@ -214,95 +435,86 @@ table {
     text-align: left;
     width: 100%;
 }
-table caption { margin: 2rem 0; }
-table tr { border-bottom: 0.0625rem solid var(--primary-color); }
-table thead { position: sticky; top: 0; }
-table tbody tr:nth-child(even) { background: var(--tertiary-color); }
-table th { background: var(--secondary-color); font-weight: bold; }
-table th, table td { padding: 0.5rem; }
+table caption {
+    margin: 2rem 0;
+}
+table tr {
+    border-bottom: 0.0625rem solid var(--primary-color);
+}
+table thead {
+    position: sticky;
+    top: 0;
+}
+table tbody tr:nth-child(even) {
+    background: var(--tertiary-color);
+}
+table th {
+    background: var(--secondary-color);
+    font-weight: bold;
+}
+table th,
+table td {
+    padding: 0.5rem;
+}
 
-input { 
-    appearance: none; 
+input {
+    appearance: none;
     border: 0.0625rem solid var(--text-color);
     display: block;
     margin: 0.5rem 0;
-    padding: 0.8rem; 
+    padding: 0.8rem;
 }
-input:focus, input:active { background-color: var(--secondary-color); border-color: var(--link-color); }
-
-sup { font-size: 80%; vertical-align: top; }
-
-/* Mobile Styling */
-@media screen and (max-width: 75ch) {
-    body, input {
-        font: var(--mobile-font-size) 'Source Serif 4', Merriweather,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto, Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    }
-    table { table-layout: auto; }
+input:focus,
+input:active {
+    background-color: var(--secondary-color);
+    border-color: var(--link-color);
 }
 
-.education-card {
+sup {
+    font-size: 80%;
+    vertical-align: top;
+}
+
+.card {
     display: flex;
     align-items: center;
     background: var(--tertiary-color);
     border-left: 0.25rem solid var(--primary-color);
-    padding: 0.5rem;
+    padding: 0.75rem;
     margin: 1rem 0;
     border-radius: 0.5rem;
 }
 
-.education-icon {
-    margin-right: 1.5rem;
-    border-radius: 1rem;
-}
-
-.education-details {
-    line-height: 1.4;
-}
-
-.research-icon {
-    margin-right: 1.5rem;
-    border-radius: .25rem;
-}
-
-.role-card {
-    display: flex;
-    align-items: center;
+.card-list {
+    display: block;
     background: var(--tertiary-color);
-    border-left: 4px solid var(--primary-color);
-    padding: 0.5rem;
+    border-left: 0.25rem solid var(--primary-color);
+    padding: 1rem 0.9rem;
     margin: 1rem 0;
     border-radius: 0.5rem;
-    font-size: 0.9rem;
 }
 
-.role-icon {
-    margin-right: 0.75rem;
+.card-list ul {
+    margin: 0;
+    padding-left: 1.5rem;
 }
 
-.role-card img {
-    padding: 0.5rem;
-    border-radius: 0.25rem;
+.card-list li {
+    margin-bottom: 0.5rem;
 }
 
-.role-details {
-    line-height: 1.2;
-}
-
-.updates-section {
-    margin: 2rem 0;
-    padding: 1rem;
-    background: var(--tertiary-color);
-    border-left: 0.25rem solid var(--link-color);
+.card-icon {
+    margin-right: 1.2rem;
     border-radius: 0.5rem;
 }
 
-.updates-section h2 {
-    margin-top: 0;
+.card-details {
+    line-height: 1.3;
 }
 
 .updates-list {
     list-style-type: disc;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
 }
 
 /* Dark mode support */
@@ -310,7 +522,8 @@ sup { font-size: 80%; vertical-align: top; }
     body {
         background: #191919;
     }
-    input:focus, input:active {
+    input:focus,
+    input:active {
         background-color: var(--text-color);
         color: var(--secondary-color);
     }
