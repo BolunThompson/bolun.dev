@@ -1,2 +1,2 @@
-- use `cobalt build` to build the website to _site/; do this after every set of changes.
+- use `cobalt serve` to create a server to test the website
 - add deps to devenv.nix; use `direnv allow` to update environment with deps
