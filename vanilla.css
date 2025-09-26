@@ -102,7 +102,7 @@ video {
 
 .sidebar {
     background: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     padding: 2rem 1.5rem;
     position: fixed;
     width: 14rem;
@@ -151,7 +151,7 @@ video {
 
 .sidebar-nav a {
     display: block;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     margin: 0.75rem auto;
     text-decoration: none;
     background: var(--tertiary-color);
@@ -162,11 +162,13 @@ video {
 }
 .sidebar-nav a:hover {
     filter: brightness(0.85);
+    color: var(--primary-color);
 }
 
 .sidebar-nav a:focus,
 .sidebar-nav a:active {
     outline: none;
+    color: var(--primary-color);
 }
 
 .social-links {
@@ -181,7 +183,7 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     text-decoration: none;
     background: var(--tertiary-color);
     padding: 0.25rem;
@@ -192,21 +194,36 @@ video {
 }
 
 .social-link:hover {
+    color: var(--link-color-alt);
     filter: brightness(0.85);
 }
 
 .social-link:focus,
 .social-link:active {
     outline: none;
+    color: var(--link-color-alt);
 }
 
 .social-link svg {
     flex-shrink: 0;
 }
 
+.social-link svg path {
+    fill: var(--primary-color);
+}
+
+.social-link:hover svg path {
+    fill: var(--link-color-alt);
+}
+
 .social-link img {
-    filter: brightness(0) saturate(100%) invert(40%) sepia(90%) saturate(1893%)
-        hue-rotate(202deg) brightness(93%) contrast(93%);
+    filter: brightness(0) saturate(100%) invert(27%) sepia(66%) saturate(1634%)
+        hue-rotate(198deg) brightness(96%) contrast(88%);
+}
+
+.social-link:hover img {
+    filter: brightness(0) saturate(100%) invert(11%) sepia(100%) saturate(1800%)
+        hue-rotate(198deg) brightness(96%) contrast(107%);
 }
 
 footer.site-footer {
