@@ -1,4 +1,6 @@
-
+ignore:
+  - "*.nix"
+  - "CONVENTIONS.md"
 site:
   title: bolun.dev
   description: Bolun's personal programming blog!
