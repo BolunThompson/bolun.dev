@@ -3,6 +3,7 @@ site:
   title: bolun.dev
   description: Bolun's personal programming blog!
   base_url: https://bolun.dev/
+  sitemap: ""
 posts:
   rss: rss.xml
   publish_date_in_filename: false
