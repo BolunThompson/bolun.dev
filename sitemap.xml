@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://bolun.dev/posts/kvm_sectorlisp.html</loc>
+    <lastmod>2024-09-24T18:58:27+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://bolun.dev/posts/hello-world.html</loc>
+  </url>
+  <url>
+    <loc>https://bolun.dev/fun-life.html</loc>
+  </url>
+  <url>
+    <loc>https://bolun.dev/index.html</loc>
+  </url>
+  <url>
+    <loc>https://bolun.dev/posts/</loc>
+  </url>
+  <url>
+    <loc>https://bolun.dev/projects.html</loc>
+  </url>
+</urlset>
