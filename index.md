@@ -9,7 +9,7 @@ i want *computer systems* to be **friendly**.
 
 i’m Bolun, a second-year computer science undergraduate at UCLA. i hope to use techniques across the stack, ranging from **program analysis to operating systems**, to create tools to eliminate bugs and improve performance. i believe anyone should have the ability to write good software.
 
-right now, i’m working under [Prof. Konstantinos Kallas](http://angelhof.github.io) and the [PaSh collaboration](https://binpa.sh) make dynamic languages *fast* — shell and python.
+right now, i’m working under [Prof. Konstantinos Kallas](http://angelhof.github.io) and the [PaSh collaboration](https://binpa.sh) to make dynamic languages *fast* — shell and python.
 
 contact me at *me at bolun dot dev* if you'd like to chat!
 
