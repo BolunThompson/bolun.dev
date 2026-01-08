@@ -1,34 +1,30 @@
 ---
 layout: default.liquid
-title: bolun thompson
+title: Bolun Thompson
 ---
 
-## about me
+## About Me
 
-i want *computer systems* to be **friendly**.
+I’m a computer science undergraduate at UCLA. I’m learning *systems* and *programming languages* tecniques so I can create tools that eliminate bugs and improve performance in everyday software. I’m currently working with Prof. Konstantinos Kallas and PaSh to make dynamic languages fast — shell and python.
 
-i’m Bolun, a second-year computer science undergraduate at UCLA. i hope to use techniques across the stack, ranging from **program analysis to operating systems**, to create tools to eliminate bugs and improve performance. i believe anyone should have the ability to write good software.
+Feel free to get in touch at my email: me [at] bolun [dot] dev!
 
-right now, i’m working under [Prof. Konstantinos Kallas](http://angelhof.github.io) and the [PaSh collaboration](https://binpa.sh) to make dynamic languages *fast* — shell and python.
 
-contact me at *me at bolun dot dev* if you'd like to chat!
-
-## news & updates
+## News & Updates
 
 <div class="card-list">
-
-+ 6/18/25: started my summer research position at UCLA!
-+ 9/25/25: back to university 🎓
++ 9/25/25: Back to university! 🎓
++ 6/18/25: Started my summer research position at UCLA!
 
 </div>
 
-## publications
+## Publications
 
 <div class="card-list">
 Coming soon (:
 </div>
 
-## education
+## Education
 
 <div class="card">
   <img class="card-icon"
@@ -37,7 +33,7 @@ Coming soon (:
   <div class="card-details">
     <strong>University of California, Los Angeles</strong><br/>
     <em>Computer Science</em><br/>
-    2024 – 2028
+    2028
   </div>
 </div>
 
