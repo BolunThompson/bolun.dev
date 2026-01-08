@@ -243,7 +243,7 @@ footer.site-footer {
     width: auto;
     height: auto;
     border: 0.1875rem solid var(--secondary-color);
-    border-radius: 25%;
+    border-radius: 10%;
 }
 
 /* Variables */
