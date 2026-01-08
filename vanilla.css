@@ -600,6 +600,18 @@ sup {
     }
 }
 
+/* Hide scrollbar across all browsers while maintaining scroll functionality */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+
+html,
+body {
+    -ms-overflow-style: none; /* IE and older Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
     body {
