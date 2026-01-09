@@ -13,6 +13,7 @@ Feel free to get in touch at my email: me [at] bolun [dot] dev!
 ## News & Updates
 
 <div class="card-list">
+  
 + 9/25/25: Back to university! 🎓
 + 6/18/25: Started my summer research position at UCLA!
 
