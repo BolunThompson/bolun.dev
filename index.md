@@ -15,6 +15,7 @@ Feel free to get in touch at my email: me [at] bolun [dot] dev!
 <div class="card-list">
   
 + 9/25/25: Back to university! 🎓
++ 9/18/25: Attended the fifth PaSh Research Workshop at Brown! I heard lots of cool talks about shell scripts and presented my own project.
 + 6/18/25: Started my summer research position at UCLA!
 
 </div>
