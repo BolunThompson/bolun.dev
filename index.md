@@ -39,7 +39,7 @@ Coming soon (:
   </div>
 </div>
 
-## professional experience
+## Professional Experience
 
 <div class="card">
   <img
