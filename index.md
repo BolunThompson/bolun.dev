@@ -5,7 +5,7 @@ title: Bolun Thompson
 
 ## About Me
 
-I’m a computer science undergraduate at UCLA. I’m learning *systems* and *programming languages* tecniques so I can create tools that eliminate bugs and improve performance in everyday software. I’m currently working with Prof. Konstantinos Kallas and PaSh to make dynamic languages fast — shell and python.
+I’m a computer science undergraduate at UCLA. I’m learning *systems* and *programming languages* techniques so I can create tools that eliminate bugs and improve performance in everyday software. I’m currently working with Prof. Konstantinos Kallas and PaSh to make dynamic languages fast — shell and python.
 
 Feel free to get in touch at my email: me [at] bolun [dot] dev!
 
@@ -23,7 +23,7 @@ Feel free to get in touch at my email: me [at] bolun [dot] dev!
 ## Publications
 
 <div class="card-list">
-Coming soon (:
+Coming soon :)
 </div>
 
 ## Education
