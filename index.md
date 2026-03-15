@@ -13,7 +13,8 @@ Feel free to get in touch at my email: me [at] bolun [dot] dev!
 ## News & Updates
 
 <div class="card-list">
-  
+
++ 2/27/26: Attended [SoCal PLs Day](https://socalpls.github.io) to talk about Pync, a function level incremental execution system for Python scripts!
 + 9/25/25: Back to university! 🎓
 + 9/18/25: Attended the fifth PaSh Research Workshop at Brown! I heard lots of cool talks about shell scripts and presented my own project.
 + 6/18/25: Started my summer research position at UCLA!
