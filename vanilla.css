@@ -634,9 +634,6 @@ body {
     }
     :root {
         --text-color: #fff;
-        --link-color: orange;
-        --link-color-alt: yellow;
-        --primary-color: orange;
         --primary-color-light: dimgrey;
         --secondary-color: black;
         --tertiary-color: #2d2d2d;
