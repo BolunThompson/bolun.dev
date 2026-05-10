@@ -1,6 +1,15 @@
 ---
 layout: default.liquid
 title: Bolun Thompson
+publications:
+  - year: 2026
+    title: "hS: Speculative Script Reordering at Subprocess Granularity"
+    authors: "Georgios Liargkovas, Di Jin, Tianyu Zhu, Dan Liu, <u>A. Bolun Thompson</u>, Anirudh Narsipur, Seong-Heon Jung, Siddhartha Prasad, Diomidis Spinellis, Michael Greenberg, Konstantinos Kallas, Nikos Vasilakis"
+    venue: "OSDI '26"
+  - year: 2026
+    title: "Pync: Function Level Incremental Execution for Python Scripts"
+    authors: "<u>A. Bolun Thompson</u>"
+    venue: "PLDI 2026 Student Research Competition"
 ---
 
 ## About Me
@@ -24,7 +33,12 @@ Feel free to get in touch at my email: me [at] bolun [dot] dev!
 ## Publications
 
 <div class="card-list">
-Coming soon :)
+
+{% for pub in page.publications -%}
+- **{{ pub.year }}** — **{{ pub.title }}.**  
+  {{ pub.authors }}. *{{ pub.venue }}*.
+{% endfor %}
+
 </div>
 
 ## Education
